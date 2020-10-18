@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="estilos.css">
+    <script src="organizacion.js"></script>
+    <title>Organizar Colores</title>
+</head>
+<body>
+    <div class="container">
+
+        <h1>Organizar Colores</h1>
+        <p>Ingrese colores y le mostraremos la forma más fluida de organizarlos, comenzando por el primer color</p>
+        
+        
+        <section class = "box centered">
+            <h2 >Paleta de colores</h2>                	
+            <button onclick="crearHijo()">Añadir otro color</button>
+            <div id="inputs" class = "flex">
+                <script id="colorstart">crearHijo()</script>
+            </div>
+            <button onclick="solve()">Organizar!</button>
+        </section>
+        
+            
+
+        <section class = "box centered">
+            <h2>Colores ordenados</h2>
+            <div class="flex squares" id = "squares_box">
+            </div>
+        </section>
+    </div>
+    
+</body>
+</html>
