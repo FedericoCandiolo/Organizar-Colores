@@ -1,0 +1,52 @@
+body{
+    background: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+button{
+    margin: 10px;
+}
+
+.container{
+    width: 95%;
+    margin: 10px auto 10px auto;
+}
+
+.box{
+    background: #fafafa;
+    padding: 1%;
+    margin: 2% 0 2% 0;
+    border-radius: 10px;
+    border: #000044 thin solid;
+    box-shadow: 0 0 10px 0px #bbbbbb;
+}
+
+.color_box{
+    margin: 1%;
+}
+
+.round-button{
+    border-radius: 50%;
+}
+
+.squares{
+    height: 50px;
+    border: #000044 thin solid;
+}
+
+.square{
+    /* width: 100px; */
+    flex-grow: 100;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.centered{
+    text-align: center;
+}
+
